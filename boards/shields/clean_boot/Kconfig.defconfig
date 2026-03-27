@@ -1,0 +1,6 @@
+if SHIELD_CLEAN_BOOT
+
+config ZMK_KEYBOARD_NAME
+    default "Clean Boot"
+
+endif
