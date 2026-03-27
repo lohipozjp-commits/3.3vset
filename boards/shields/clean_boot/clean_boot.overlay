@@ -29,11 +29,14 @@
     };
 };
 
+/ {
+};
+
 &gpio0 {
-    vcc_3v3_en: vcc_3v3_en {
+    vcc_en_hog: vcc_en_hog {
         gpio-hog;
         gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-low;
-        line-name = "3V3_EN";
+        output-high;
+        status = "okay";
     };
 };
