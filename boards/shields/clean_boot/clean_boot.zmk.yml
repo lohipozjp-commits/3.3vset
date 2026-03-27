@@ -1,0 +1,9 @@
+file_format: "1"
+id: clean_boot
+name: Clean Boot
+type: shield
+url: https://github.com/<你的用户名>/clean-boot-zmk
+requires:
+  - pro_micro
+features:
+  - keys
