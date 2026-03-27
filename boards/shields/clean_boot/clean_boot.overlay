@@ -33,7 +33,7 @@
     vcc_3v3_en: vcc_3v3_en {
         gpio-hog;
         gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-high;
+        output-low;
         line-name = "3V3_EN";
     };
 };
